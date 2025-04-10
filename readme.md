@@ -24,13 +24,6 @@ This project detects fraudulent credit card transactions using a Random Forest m
 4. Evaluation using Accuracy, Precision, Recall, F1 Score
 5. Logging Metrics using Azure ML SDK
 
-## 📁 Dataset
-
-This project uses the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from Kaggle.
-
-> ⚠️ **Note**: Due to GitHub’s 100MB file limit, the dataset is not included in the repository.  
-> 📥 Please download the dataset manually and place `creditcard.csv` inside the `data/` folder.
-
 ## 🔧 How to Run
 
 1. Clone the repository:
