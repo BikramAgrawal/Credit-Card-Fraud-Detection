@@ -25,7 +25,8 @@ This project detects fraudulent credit card transactions using a Random Forest m
 5. Logging Metrics using Azure ML SDK
 
 
-📁 Dataset Info (Important!)
+## 📁 Dataset Info (Important!)
+
 The dataset (data/creditcard.csv) is stored using Git Large File Storage (Git LFS).
 To access the actual dataset, you must have Git LFS installed before cloning or pulling the repo.
 
