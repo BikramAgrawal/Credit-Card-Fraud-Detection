@@ -24,9 +24,28 @@ This project detects fraudulent credit card transactions using a Random Forest m
 4. Evaluation using Accuracy, Precision, Recall, F1 Score
 5. Logging Metrics using Azure ML SDK
 
+
+📁 Dataset Info (Important!)
+The dataset (data/creditcard.csv) is stored using Git Large File Storage (Git LFS).
+To access the actual dataset, you must have Git LFS installed before cloning or pulling the repo.
+
 ## 🔧 How to Run
 
-1. Clone the repository:
+1. Install Git LFS:
+   ```bash
+   git lfs install
+
+2. Clone the repository:
    ```bash
    git clone https://github.com/BikramAgrawal/Credit-Card-Fraud-Detection.git
    cd Credit-Card-Fraud-Detection
+
+3. Pull the dataset file:
+   ```bash
+   git lfs pull
+
+
+⚠️ Without Git LFS, you'll only get a small pointer file instead of the actual dataset.
+
+
+ 
